@@ -1,6 +1,6 @@
 var express = require('express');
 var fs=require('fs');
-var homepage=fs.readFilleSync('index.html'); 
+var homepage=fs.readFileSync('index.html'); 
 
 var buf=new Buffer(homepage);
 
